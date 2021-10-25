@@ -24,28 +24,35 @@ This repository provides a list of selected papers about Document Retrieval
 
 > * A table for representative models on [Notion](https://www.notion.so/wasdcom/182d7120624847c1af58c254f44caccb?v=d5cb41954b6b4bd2af3199c8d3602271)
 
-#### Represetation focused models
+#### Represetation focused models \[Siamese\]
 
 - \[DSSM\]
 - \[C-DSSM\]
 - \[ARC-I\]
 - \[MV-LSTM\]
 
-#### Interaction focused models
-- 
+#### Interaction focused models \[Matching-aggregate\]
+- \[DRMM\]
+- \[K-NRM\]
+- \[HiNT\]
+- \[aNMM\]
+- \[MatchPyramid\]
+- \[DeepRank\]
+- \[BiMPM\]]
 
 #### Hybrid models
+- \[DUET\]
 
 ## Other resources
 
 ### Benchmarking dataset for document retrieval task
 
-* [\[MS MARCO\]](https://microsoft.github.io/msmarco/)[MS MARCO: A Human Generated MAchine Reading COmprehension Dataset](https://arxiv.org/pdf/1611.09268.pdf)
-* \[TREC CAR\][TREC Complex Answer Retrieval Overview](https://trec.nist.gov/pubs/trec26/papers/Overview-CAR.pdf)
-* [\[TREC DL\]](https://trec.nist.gov/)[Overview of the TREC 2019 deep learning track](https://arxiv.org/pdf/2003.07820.pdf)
+* [\[MS MARCO\]](https://microsoft.github.io/msmarco/) [MS MARCO: A Human Generated MAchine Reading COmprehension Dataset](https://arxiv.org/pdf/1611.09268.pdf)
+* \[TREC CAR\] [TREC Complex Answer Retrieval Overview](https://trec.nist.gov/pubs/trec26/papers/Overview-CAR.pdf)
+* [\[TREC DL\]](https://trec.nist.gov/) [Overview of the TREC 2019 deep learning track](https://arxiv.org/pdf/2003.07820.pdf)
 
-- \[TREC COVID\][TREC-COVID: Constructing a Pandemic Information Retrieval Test Collection](https://dl.acm.org/doi/pdf/10.1145/3451964.3451965)
+- \[TREC COVID\] [TREC-COVID: Constructing a Pandemic Information Retrieval Test Collection](https://dl.acm.org/doi/pdf/10.1145/3451964.3451965)
 
 ## Todo list
 
-* Add topics: *[Prop](https://arxiv.org/abs/2010.10137)*;*Longformer*;*doc2query*;*[ANCE](https://github.com/microsoft/ANCE)*;*[HDCT](https://github.com/AdeDZY/DeepCT)*;Dense retrival; Word based sparse retrival (The seletion used [\[MS MARCO\]](https://microsoft.github.io/msmarco/) leaderboard as a reference)
+* Add topics: *[Prop](https://arxiv.org/abs/2010.10137)*;*Longformer*;*doc2query*;*[ANCE](https://github.com/microsoft/ANCE)*;*[HDCT](https://github.com/AdeDZY/DeepCT)*;Dense retrival;*[COIL]*;monoBert;DuoBert;[LCE loss]; Word based sparse retrival (The seletion used [\[MS MARCO\]](https://microsoft.github.io/msmarco/) leaderboard as a reference)
